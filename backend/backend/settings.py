@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-v23lnyd+=ip)#6at&t-yz%@6_in9adxfvd_08=+=7u8v&1%(ci
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1']
+ALLOWED_HOSTS = ['127.0.0.1', 'https://easy-trade-app.herokuapp.com']
 
 
 # Application definition
