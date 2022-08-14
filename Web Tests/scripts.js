@@ -5,10 +5,9 @@ document.addEventListener('DOMContentLoaded', function () {
     }
     var get_button = document.querySelector('#get_button');
     get_button === null || get_button === void 0 ? void 0 : get_button.addEventListener('click', function () {
-        fetch('http://127.0.0.1:8000/users/', {
+        fetch('https://easy-trade-app.herokuapp.com/users/', {
         // mode: 'no-cors'
         })
-            .then(function (response) { return response.body; })
-            .then(function (data) { return console.log(data); });
+            .then(function (response) { return console.log(response.body); });
     });
 });

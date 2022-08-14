@@ -6,11 +6,10 @@ document.addEventListener('DOMContentLoaded', function(){
 
     const get_button = document.querySelector('#get_button')
     get_button?.addEventListener('click', function(){
-        fetch('http://127.0.0.1:8000/users/',{
+        fetch('https://easy-trade-app.herokuapp.com/users/',{
             // mode: 'no-cors'
         } )
-        .then((response) => response.body)
-        .then((data) => console.log(data))
+        .then((response) => console.log(response.body))
     })
 
   })
